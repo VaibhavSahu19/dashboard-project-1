@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <section className='flex flex-col justify-start gap-[40px] px-[30px] py-[10px] w-[20%] min-h-screen bg-[#FAFBFB]'>
+    <section className='flex flex-col justify-start gap-[40px] px-[30px] py-[10px] w-[20%] bg-[#FAFBFB]'>
         <div className = 'flex justify-center items-center '>
             <img src="/logo.png" alt="logo" />
             <img src="/logo-name.png" alt="logo-name" />
