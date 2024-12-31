@@ -6,7 +6,7 @@ function JobCard({name, number, use, color}) {
         <div className='text-[18px] text-[black] font-medium'>
             {name}
         </div>
-        <div className='text-[36px] text-[black]'>
+        <div className='text-[36px] text-[black] font-medium'>
             {number}
         </div>
         <div className='text-[16px]'>
