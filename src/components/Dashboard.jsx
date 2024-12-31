@@ -8,7 +8,7 @@ function Dashboard() {
     <section>
         <h3 className='text-[24px] py-[15px] font-medium md:self-center'>Dashboard</h3>
         <div className='flex flex-col md:flex-row gap-[20px]'>
-            <div className='flex flex-col  gap-[20px]'>
+            <div className='flex flex-col gap-[20px]'>
                 <div className='flex flex-col md:flex-row justify-between gap-[10px] w-[100%] items-center'>
                     <JobCard name="Available Position" number="24" use="4 Urgently needed" color="#FF5151" />
                     <JobCard name="Job Open" number="10" use="4 Active hiring" color="#3786F1" />

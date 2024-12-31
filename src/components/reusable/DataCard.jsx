@@ -2,7 +2,7 @@ import React from 'react'
 
 function DataCard({title, count, men, women, profit}) {
   return (
-    <section className='flex flex-col md:flex-row  justify-between p-[15px] items-center w-[50%] border border-[#E0E0E0] rounded-[10px]'>
+    <section className='flex flex-col md:flex-row h-[100%] w-[100%] md:w-[50%] justify-between p-[15px] items-center  border border-[#E0E0E0] rounded-[10px]'>
         <div className='flex flex-col gap-[10px]'>
             <div className='text-[18px] font-medium'>{title}</div>
             <div className='text-[48px] font-medium'>{count}</div>

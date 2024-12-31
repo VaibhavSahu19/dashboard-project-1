@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faXmark } from '@fortawesome/free-solid-svg-icons'
+library.add(faXmark);
 
-function Sidebar() {
+function Sidebar({toggle, setToggle}) {
+    function handleToggle(e){
+        e.preventDefault();
+        setToggle(!toggle);
+    }
   return (
-    <section className='hidden md:flex flex-col justify-start gap-[40px] px-[30px] py-[10px] w-[20%] bg-[#FAFBFB]'>
+    <section
+            className={`${
+                toggle ? 'block' : 'hidden'
+            } fixed inset-0 md:flex flex-col justify-start gap-[40px] px-[30px] py-[10px] w-[20%] bg-[#FAFBFB] z-50 md:relative`}
+        >
         <div className = 'flex justify-center items-center '>
             <img src="/logo.png" alt="logo" />
             <img className='hidden md:flex' src="/logo-name.png" alt="logo-name" />
@@ -15,7 +27,7 @@ function Sidebar() {
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="hover:text-[#FF5151]">
                             <path d="M0 10H8V0H0V10ZM0 18H8V12H0V18ZM10 18H18V8H10V18ZM10 0V6H18V0H10Z" fill="currentColor"/>
                         </svg>
-                        <span className = 'hidden md:flex'>Dashboard</span>
+                        <span className={`hidden md:flex ${toggle ? 'block' : ''}`}>Dashboard</span>
                     </a>
                 </li>
                 <li className = ''>
@@ -79,6 +91,7 @@ function Sidebar() {
                     </a>
                 </li>
             </ul>
+            <FontAwesomeIcon onClick={handleToggle} className={`md:hidden ${toggle ? 'flex' : 'hidden'} text-[#b2b2b2] text-[20px] cursor-pointer`} icon="fa-solid fa-xmark" />
         </div>
     </section>
   )

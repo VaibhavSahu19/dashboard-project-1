@@ -5,11 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(faMagnifyingGlass, faBars, faBell, faMessage, faAngleDown);
 
-function Navbar() {
+function Navbar({toggle, setToggle}) {
+
+  function handleToggle(e){
+    e.preventDefault();
+    setToggle(!toggle);
+  }
   return (
     <section className='flex justify-between h-[60px]'>
         <div className='flex justify-center items-center gap-[30px] flex-shrink-0'>
-            <FontAwesomeIcon className="text-[#b2b2b2] cursor-pointer text-[17px]" icon="fa-solid fa-bars" />
+            <FontAwesomeIcon onClick={handleToggle} className="text-[#b2b2b2] cursor-pointer text-[17px]" icon="fa-solid fa-bars" />
             <div className='flex bg-[#FAFAFA] border border-[#B3B3B3] p-[10px] justify-center items-center rounded-[5px]'>
             <input className='hidden md:flex bg-transparent outline-none text-[#b2b2b2] px-[5px] md:px-[10px]' type="text" placeholder='Search' />
             <FontAwesomeIcon className="text-[#b2b2b2] cursor-pointer text-[17px]" icon="fa-solid fa-magnifying-glass" />
