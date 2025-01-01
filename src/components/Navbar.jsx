@@ -48,7 +48,7 @@ function Navbar({ toggle, setToggle }) {
         {/* Search Input */}
         <div
           ref={searchInputRef}
-          className={`flex ${isSearchVisible && window.innerWidth <= 768 ? 'absolute top-[60px] left-0 right-0 bg-[#FAFAFA] border border-[#B3B3B3] p-[10px] shadow-lg' : 'hidden md:flex'} items-center rounded-[5px]`}
+          className={`flex bg-[#FAFAFA] px-[20px] py-[10px] rounded-md ${isSearchVisible && window.innerWidth <= 768 ? 'absolute top-[60px] left-0 right-0  border border-[#B3B3B3] p-[10px] shadow-lg' : 'hidden md:flex'} items-center rounded-[5px]`}
         >
           <input
             className="bg-transparent outline-none text-[#b2b2b2] px-[5px] md:px-[10px] w-full"
