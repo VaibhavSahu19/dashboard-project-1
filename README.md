@@ -30,33 +30,30 @@ To run this project locally:
 
    ```bash
    git clone https://github.com/your-username/your-repo.git
-   ```bash
 
 2. Navigate to the project directory:
 
    ```bash
    cd your-repo
-   ```bash
 
 3. Install dependencies:
 
    ```bash
    npm install
-   ```bash
 
 4. Start the development server:
 
    ```bash
    npm run dev
-   ```bash
 
 5. Open your browser and navigate to:
+   http://localhost:5173
 
 
 
 ## Demo
 
-You can view the deployed version of this project [https://vaibhav-sahu-dashboard-project.vercel.app/](#).
+You can view the deployed version of this project [https://vaibhav-sahu-dashboard-project.vercel.app/](https://vaibhav-sahu-dashboard-project.vercel.app/).
 
 ## Technologies Used
 
@@ -75,9 +72,12 @@ You can view the deployed version of this project [https://vaibhav-sahu-dashboar
 For any inquiries or feedback, feel free to reach out:
 
 - **Name:** Vaibhav Kumar Sahu
-- **Email:** [vaibhavsahu200@gmail.com](mailto:vaibhavsahu200@gmail.com)
-- **LinkedIn:** [https://www.linkedin.com/in/vaibhavsahu19/](#)
+- **Email:** [![Gmail Icon](https://img.icons8.com/ios/50/000000/gmail.png)](mailto:vaibhavsahu200@gmail.com)
+  - [vaibhavsahu200@gmail.com](mailto:vaibhavsahu200@gmail.com)
+- **LinkedIn:** [![LinkedIn Icon](https://img.icons8.com/ios/50/000000/linkedin.png)](https://www.linkedin.com/in/vaibhavsahu19/)
+  - [vaibhavsahu19](https://www.linkedin.com/in/vaibhavsahu19/)
 
 ---
+
 
 Thank you for reviewing my project!
