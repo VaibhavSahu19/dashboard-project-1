@@ -72,12 +72,8 @@ You can view the deployed version of this project [https://vaibhav-sahu-dashboar
 For any inquiries or feedback, feel free to reach out:
 
 - **Name:** Vaibhav Kumar Sahu
-- **Email:** [![Gmail Icon](https://img.icons8.com/ios/50/000000/gmail.png)](https://mail.google.com/mail/?view=cm&fs=1&to=vaibhavsahu200@gmail.com)
-  - [vaibhavsahu200@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=vaibhavsahu200@gmail.com)
-- **LinkedIn:** [![LinkedIn Icon](<a href="your-linkedin-URL">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>)](https://www.linkedin.com/in/vaibhavsahu19/)
-  - [vaibhavsahu19](https://www.linkedin.com/in/vaibhavsahu19/)
+- **Email:** [vaibhavsahu200@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=vaibhavsahu200@gmail.com)
+- **LinkedIn:** [vaibhavsahu19](https://www.linkedin.com/in/vaibhavsahu19/)
 
 ---
 
